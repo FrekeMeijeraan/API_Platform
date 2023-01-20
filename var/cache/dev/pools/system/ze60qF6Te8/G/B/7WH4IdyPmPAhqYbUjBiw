@@ -1,0 +1,49 @@
+<?php //property_name_collection_ab4d1dae50f211674a25659eca7f63f8
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['ApiPlatform\\Metadata\\Property\\PropertyNameCollection'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('ApiPlatform\\Metadata\\Property\\PropertyNameCollection')),
+    ],
+    null,
+    [
+        'ApiPlatform\\Metadata\\Property\\PropertyNameCollection' => [
+            'properties' => [
+                [
+                    'id',
+                    'property_id',
+                    'area',
+                    'city',
+                    'cover_img_url',
+                    'furnish',
+                    'latitude',
+                    'longitude',
+                    'postal_code',
+                    'property_type',
+                    'availability',
+                    'rent',
+                    'deposit',
+                    'total_cost',
+                    'cost_sqm',
+                    'title',
+                    'gender',
+                    'is_room_active',
+                    'page_title',
+                    'roommates',
+                    'description',
+                    'owner',
+                    'propertyId',
+                    'coverImgUrl',
+                    'postalCode',
+                    'propertyType',
+                    'totalCost',
+                    'costSqm',
+                    'isRoomActive',
+                    'pageTitle',
+                    'shortDescription',
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];
