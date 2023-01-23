@@ -104,10 +104,10 @@ class User
 
         return $this;
     }
-
+/*
     /**
      * @return Collection<int, House>
-     */
+
     public function getHouses(): Collection
     {
         return $this->Houses;
@@ -134,5 +134,6 @@ class User
 
         return $this;
     }
+*/
 }
 
